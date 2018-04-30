@@ -7,7 +7,7 @@ For the full Quantum feature list, see [the parent readme.md](/doc/readme.md).
 
 ## Building
 
-Download or clone the whole firmware and navigate to the keyboards/handwired/fivethirteen folder.
+Download or clone the whole firmware and navigate to the keyboards/handwired/fivefourteen folder.
 Once your dev env is setup, you'll be able to type `make` to generate your .hex - you can then use
 the Teensy Loader to program your .hex file.
 
