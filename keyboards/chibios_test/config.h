@@ -19,36 +19,49 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CONFIG_H
 
 /* USB Device descriptor parameter */
+/*
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6464
 #define DEVICE_VER      0x0001
+ */
 /* in python2: list(u"whatever".encode('utf-16-le')) */
 /*   at most 32 characters or the ugly hack in usb_main.c borks */
+/*
 #define MANUFACTURER QMK
 #define PRODUCT ChibiOS QMK test
 #define DESCRIPTION QMK keyboard firmware test for ChibiOS
+ */
 
 /* key matrix size */
+/*
 #define MATRIX_ROWS 1
 #define MATRIX_COLS 1
 #define DIODE_DIRECTION COL2ROW
+ */
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
 
 /* Set 0 if debouncing isn't needed */
+/*
 #define DEBOUNCE    5
+ */
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
+/*
 #define LOCKING_SUPPORT_ENABLE
+ */
 /* Locking resynchronize hack */
+/*
 #define LOCKING_RESYNC_ENABLE
+ */
 
 /* key combination for command */
+/*
 #define IS_COMMAND() ( \
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
 )
-
+ */
 
 
 /*
