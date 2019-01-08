@@ -11,9 +11,12 @@
 #define DESCRIPTION     handwired 5x14 matrix keyboard
 
 /*
- * Row pins top to bottom: 4,3,2,1,0
- * Column pins left to right: [5,6,7,8,9,10,11,12,14,15,16,17,18,19]
+ * Row pins top to bottom: 0,1,2,3,4
+ * Column pins right to left: 14,15,16,17,18,19,20,21,22,23,25,24,5,6
  */
+
+/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
+#define DEBOUNCING_DELAY 2
 
 /* key matrix size */
 #define MATRIX_ROWS 5
