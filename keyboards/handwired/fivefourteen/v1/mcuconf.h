@@ -1,0 +1,16 @@
+// Copyright 2026 ruphin
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+// Teensy LC (MKL26Z64): 96 MHz PLL, 48 MHz system clock, USB0 enabled.
+#define KL2x_MCUCONF
+
+#define KINETIS_MCG_MODE KINETIS_MCG_MODE_PEE
+#define KINETIS_PLLCLK_FREQUENCY 96000000UL
+#define KINETIS_SYSCLK_FREQUENCY 48000000UL
+
+#define KINETIS_SERIAL_USE_UART0 TRUE
+
+#define KINETIS_USB_USE_USB0 TRUE
+#define KINETIS_USB_USB0_IRQ_PRIORITY 2
