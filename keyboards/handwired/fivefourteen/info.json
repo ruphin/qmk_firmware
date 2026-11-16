@@ -1,6 +1,6 @@
 {
   "manufacturer": "ruphin",
-  "url": "https://github.com/ruphin/qmk)firmware",
+  "url": "https://github.com/ruphin/qmk_firmware",
   "maintainer": "ruphin",
   "usb": {
     "vid": "0xFEED",

@@ -4,6 +4,7 @@
         "device_version": "2.0.0"
     },
     "features": {
+        "key_override": true,
         "nkro": true
     },
     "matrix_pins": {

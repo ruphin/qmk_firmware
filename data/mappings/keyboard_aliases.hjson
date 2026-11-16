@@ -2362,6 +2362,9 @@
     "handwired/dygma/raise": {
         "target": "handwired/dygma/raise/ansi"
     },
+    "handwired/fivefourteen": {
+        "target": "handwired/fivefourteen/v2"
+    },
     "helix/rev3_4rows": {
         "target": "helix/rev3"
     },
